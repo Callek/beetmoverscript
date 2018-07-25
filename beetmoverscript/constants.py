@@ -151,7 +151,8 @@ PARTNER_REPACK_PUBLIC_REGEXES = (
 )
 
 CHECKSUMS_CUSTOM_FILE_NAMING = {
-    'beetmover-source': '-source'
+    'beetmover-source': '-source',
+    'release-sign-and-push-langpacks': '-langpack',
 }
 
 BUILDHUB_ARTIFACT = "buildhub.json"
