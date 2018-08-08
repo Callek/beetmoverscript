@@ -225,7 +225,7 @@ def test_get_release_props(context, mocker, taskjson, locale, relprops, expected
 ), (
     "beetmover-repackage", ""
 ), (
-    "release-sign-and-push-langpacks", "-langpack"
+    "release-beetmover-signed-langpacks", "-langpack"
 ),))
 def test_is_custom_beetmover_task(context, kind, expected):
     context.task['tags']['kind'] = kind
